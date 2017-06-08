@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "App", "App\App.fsproj", "{A295313B-533D-4C7E-92B0-6FABF7C90FBA}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PhysicsEngine", "PhysicsEngine\PhysicsEngine.fsproj", "{39CD52E5-CC2C-40EC-9FA5-039844FE0F0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A295313B-533D-4C7E-92B0-6FABF7C90FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A295313B-533D-4C7E-92B0-6FABF7C90FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A295313B-533D-4C7E-92B0-6FABF7C90FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39CD52E5-CC2C-40EC-9FA5-039844FE0F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CD52E5-CC2C-40EC-9FA5-039844FE0F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CD52E5-CC2C-40EC-9FA5-039844FE0F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CD52E5-CC2C-40EC-9FA5-039844FE0F0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
