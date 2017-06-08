@@ -37,3 +37,21 @@ To create a toy universe with "intelligent" life.
     * Can run examples in the browser
 
 I choose **F#** for now.
+
+## Physics
+The physics engine will maintain a list of physical objects and mutate them as well as a search tree for optimization.
+
+Each physical object is called a "particle" and will have following physical properties:
+* Position
+* Velocity
+* Mass
+* Radius
+
+Optional extra properties like stickiness, charge and gravity can be added later
+
+Additionally each physical object much carry an ID for identification during the rendering process in order to render various objects with unique graphics.
+## Graphics
+* 2D world
+* Camera navigation
+* Physical objects
+
