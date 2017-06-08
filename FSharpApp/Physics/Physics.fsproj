@@ -50,11 +50,11 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
+    <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Engine.fsi" />
     <Compile Include="Engine.fs" />
     <None Include="Script.fsx" />
     <Content Include="packages.config" />
-    <Compile Include="AssemblyInfo.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
@@ -67,7 +67,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.ValueTuple">
-      <HintPath>..\packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+      <HintPath>..\packages\System.ValueTuple.4.3.1\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
     </Reference>
   </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

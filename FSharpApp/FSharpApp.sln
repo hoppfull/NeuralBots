@@ -7,6 +7,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "App", "App\App.fsproj", "{B
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Physics", "Physics\Physics.fsproj", "{628E0398-1192-4A55-AC01-F185EB47FC44}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Physics.Tests", "Physics.Tests\Physics.Tests.fsproj", "{C7E68FDC-FB23-4746-8AE5-F8A7657B995C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{628E0398-1192-4A55-AC01-F185EB47FC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{628E0398-1192-4A55-AC01-F185EB47FC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{628E0398-1192-4A55-AC01-F185EB47FC44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E68FDC-FB23-4746-8AE5-F8A7657B995C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E68FDC-FB23-4746-8AE5-F8A7657B995C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E68FDC-FB23-4746-8AE5-F8A7657B995C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E68FDC-FB23-4746-8AE5-F8A7657B995C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
