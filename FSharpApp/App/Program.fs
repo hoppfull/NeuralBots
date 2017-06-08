@@ -1,4 +1,4 @@
 ﻿[<EntryPoint>]
-let main argv = 
-    printfn "%A" argv
+let main _ = 
+    printfn "Hello!"
     0 // return an integer exit code
