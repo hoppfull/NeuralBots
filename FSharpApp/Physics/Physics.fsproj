@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>39cd52e5-cc2c-40ec-9fa5-039844fe0f0f</ProjectGuid>
+    <ProjectGuid>628e0398-1192-4a55-ac01-f185eb47fc44</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>PhysicsEngine</RootNamespace>
-    <AssemblyName>PhysicsEngine</AssemblyName>
+    <RootNamespace>Physics</RootNamespace>
+    <AssemblyName>Physics</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <TargetFSharpCoreVersion>4.4.1.0</TargetFSharpCoreVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Name>PhysicsEngine</Name>
+    <Name>Physics</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,9 +50,11 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
-    <Compile Include="MyModule.fs" />
+    <Compile Include="Engine.fsi" />
+    <Compile Include="Engine.fs" />
     <None Include="Script.fsx" />
     <Content Include="packages.config" />
+    <Compile Include="AssemblyInfo.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />

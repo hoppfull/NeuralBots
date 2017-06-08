@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>a295313b-533d-4c7e-92b0-6fabf7c90fba</ProjectGuid>
+    <ProjectGuid>bfc99254-b06d-4434-b7ff-50a54a18f445</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>App</RootNamespace>
     <AssemblyName>App</AssemblyName>
@@ -54,6 +54,7 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
+    <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
     <Content Include="packages.config" />
@@ -73,9 +74,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PhysicsEngine\PhysicsEngine.fsproj">
-      <Name>PhysicsEngine</Name>
-      <Project>{39cd52e5-cc2c-40ec-9fa5-039844fe0f0f}</Project>
+    <ProjectReference Include="..\Physics\Physics.fsproj">
+      <Name>Physics</Name>
+      <Project>{628e0398-1192-4a55-ac01-f185eb47fc44}</Project>
       <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
