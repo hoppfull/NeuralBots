@@ -1,6 +1,7 @@
-﻿open Physics
+﻿open Mathematics.LinearAlgebra
+open Algorithms.SearchTree
 
 [<EntryPoint>]
 let main _ = 
-    printfn "%i" <| Engine.f 103 // 206
+    printfn "hello"
     0 // return an integer exit code

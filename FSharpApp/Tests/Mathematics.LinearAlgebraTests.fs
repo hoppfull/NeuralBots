@@ -1,4 +1,4 @@
-﻿namespace Mathematics.Tests
+﻿namespace Mathematics
 
 module LinearAlgebraTests =
     open System
@@ -81,7 +81,7 @@ module LinearAlgebraTests =
         let v1 = Vec2 (x1, y1)
         Assert.Equal(v1, c * v0)
         Assert.Equal(v1, v0 * c)
-    
+
     [<Theory>]
     [<InlineData(0., 0., 0., 0., 0.)>]
     [<InlineData(0., 0., 2., -4., 0.)>]
